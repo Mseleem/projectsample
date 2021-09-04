@@ -542,11 +542,14 @@ body {
 
 @media screen and (max-width: 550px) {
     .why-item {
-        width: 60%;
+        width: 100%;
+    }
+    .why {
+        width: unset;
     }
     
     #why-us{
-        height: 1300px;
+        height: 1398px;
     }
 
     .why-container {
