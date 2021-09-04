@@ -566,9 +566,9 @@ body {
         width: 100% !important;
     }
 
-    #data-locations {
+    /* #data-locations {
         height: 600px;
-    }
+    } */
 
     #footer {
         padding-top: 100px;
@@ -888,5 +888,6 @@ padding-bottom: 50px;
     .carousel-inner {font-size: 15px;}
     .sliding {top: -245px;}
     .case-img {padding-top: 180px;}
-    
+    #data-locations {height: 1080px !important;}
+    .why {margin-left: 0px}
 }
