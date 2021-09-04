@@ -716,7 +716,7 @@ height: 450px;
 }
 
 .live-chat {
-margin-top: -56px;
+/* margin-top: -56px; */
 padding-bottom: 50px;
 
 }
@@ -880,4 +880,13 @@ padding-bottom: 50px;
 .caro-btns button:hover {
     background-color: #fdd700;
     border-style: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 550px) {
+    .live-chat {margin-top: 20px;}
+    .half {padding-left: 20px;}
+    .carousel-inner {font-size: 15px;}
+    .sliding {top: -245px;}
+    .case-img {padding-top: 180px;}
+    
 }
